@@ -1,4 +1,5 @@
-﻿html {
+﻿/* Generales */
+html {
     box-sizing: border-box;
 }
 
@@ -11,6 +12,8 @@ body
     background-color: #141414;
     color: white;
 }
+
+/* Header */
 
 .logo
 {
@@ -43,9 +46,16 @@ nav a
     height: 100vh;
 }
 
+/* main */
+
 #trailer{
     padding:20px;
 }
+section > h2
+{
+  font-weight: bold;
+}
+
 .video{
     border: 1px solid rgb(29, 27, 27);
     border-radius: 5%;
@@ -53,6 +63,12 @@ nav a
 .card{
     background-color: #303030;
 }
+pre{
+    color: #818181;
+}
+
+/* footer */
+
 footer
 { 
     background-color: #303030;
